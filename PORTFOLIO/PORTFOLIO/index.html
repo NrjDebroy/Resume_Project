@@ -33,10 +33,10 @@
           <li><a href="#">about</a></li>
           <li><a href="#">contact</a></li>
         </ul>
-        <select name="links" id="links" size="1" onchange="window.location.href = this.value;">
+        <select name="links" id="redirect-dropdown" size="1" onchange="openNewTab()" = this.value;">
           <option value="">Resume</option>
-          <option value="#">RANIT</option>
-          <option value="#">NIRAJ</option>
+          <option value="http://127.0.0.1:3000/Resume_Project/portfolio_ranit/portfolio_ranit/index.html">RANIT</option>
+          <option value="http://127.0.0.1:3000/Resume_Project/Profile_Niraj/Profile_Niraj/index.html">NIRAJ</option>
         </select>
       </nav>
     </header>
@@ -92,6 +92,11 @@
     </footer>
     
   </div>
+
+
+
+
+  <script src="script.js"></script>
 </body>
 
 </html>
