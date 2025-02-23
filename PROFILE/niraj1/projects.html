@@ -12,27 +12,25 @@
 </head>
 
 <body class="text-amber-50 bg-black rounded-sm">
-    <div class="display:flex grid grid-cols-2 h-dvh">
+    <div class="display:flex grid grid-cols-2">
 
-
-        <div class=" max-w-110 border-r-2 border-zinc-800  fixed top-0 right-0 bottom-0 left-0 fixed-0-0-0-0 ">
+        <div class=" max-w-110 border-r-2 border-zinc-800  fixed top-0 right-0 bottom-0 left-0 fixed-0-0-0-0">
             <div class="p-20 pb-1 m-8 mb-1 mt-30 items-center">
                 <img src="./src/img/IMAGE.png" alt="" srcset=""
                     class="w-40 h-40 rounded-full border-2 border-pink-400 mx-auto"/>
             </div>
 
-
             <div class="p-0 mt-1 ">
-                <h2 class="text-4xl pl-26 ">Niraj Debroy</h2>
+                <h2 class="text-4xl pl-26 capitalize">Niraj Debroy</h2>
             </div>
 
 
             <div>
                 <ul class="flex items-center mx-auto ml-5 mt-3 ">
-                    <li class="pl-5 mt-2"><i class="fa-solid fa-envelope" style="color: #FD6E99;"></i>
-                        <a href="#">nirajdebroy@gmail.com</a>
+                    <li class="pl-5 mt-2"><i class="fa-solid fa-envelope" style="color:#FD6E99;"></i>
+                        <a href="#">debroyniraj@gmail.com</a>
                     </li>
-                    <li class="pl-5 mt-2"><i class="fa-solid fa-location-dot" style="color:#FD6E99;"></i>
+                    <li class="pl-5 mt-2"><i class="fa-solid fa-location-dot" style="color: #FD6E99"></i>
                         <a href="#">Kokrajhar, AS, IN</a>
                     </li>
                 </ul>
@@ -61,34 +59,53 @@
 
 
 
+        <div class="mt-15 p-30  min-w-110 fixed top-0 left-110 right-0 bottom-0 fixed-0-0-0 overflow-y-scroll" style="padding-left: 90px; padding-right:30px; ">
 
 
-        <div class=" mt-20 p-30 min-w-100 fixed top-0 left-110 right-0 bottom-0 fixed-0-0-0-0 overflow-y-scroll">
+            <section>
 
-
-            <section class="">
                 <div class="text-4xl">
-                    <h1 class="capitalize underline underline-offset-8" style="text-decoration-color: #FD6E99">skills</h1>
+                    <h1 class="capitalize underline underline-offset-10" style="text-decoration-color: #FD6E99">projects</h1>
                 </div>
 
-                <div class="display:flex grid grid-cols-2 place-content-center mt-15  ">
-                    <div class=" capitalize border-2 rounded-xl  p-1 pl-3  mr-40 h-11  mt-5">arc GIS pro</div>
-                    <div class=" capitalize border-2 rounded-xl  p-1 pl-3  mr-40 h-11  mt-5">arc online</div>
-                    <div class="capitalize border-2 rounded-xl p-1 pl-3 mr-40  h-11 mt-5">arc map</div>
-                    <div class=" capitalize border-2 rounded-xl  p-1 pl-3  mr-40 h-11  mt-5">qgis</div>
-                    <div class=" capitalize border-2 rounded-xl  p-1 pl-3  mr-40 h-11  mt-5">spatial analysis</div>
-                    <div class="capitalize border-2 rounded-xl p-1 pl-3  mr-40 h-11 mt-5">raster analysis</div>
-                    <div class=" capitalize border-2 rounded-xl  p-1 pl-3  mr-40 h-11  mt-5">google earth engine </div>
-                    <div class="uppercase border-2 rounded-xl p-1 pl-3  mr-40 h-11 mt-5">sql</div>
+
+
+                <div class="display:flex grid grid-cols-2 mt-12 pr-10">
+                    <div class="border-2 m-auto mr-4 p-2.5 w-auto rounded-xl">
+                        <img src="./src/img/rainfall_analysis.png" alt="" srcset="" class="rounded-lg">
+                        <h3 class="mt-5 text-center italic">Rainfall Analysis of Kokrajhar-Dhubri District</h3>
+
+                        <p class="text-justify mt-7">A choropleth map shows rainfall in Kokrajhar and Dhubri districts using data from rainfall
+                            stations. Kriging and Inverse Distance Weighting (IDW) interpolation methods were applied.
+                            The map visualizes spatial rainfall distribution across these districts. It helps in
+                            analyzing regional precipitation patterns effectively.</p>
+
+                        <button class="rounded-full border italic pl-2 pr-2 w-30 h-9 m-auto ml-35 mt-5 mb-3 cursor-pointer" style="color: #FD6E99;"> <i
+                                class="fa-brands fa-github" style="color: #FD6E99;"></i> &nbsp; repo link</button>
+                    </div>
+
+                    <div class="border-2 m-auto ml-4 p-2.5 w-auto rounded-xl">
+                        <img src="./src/img/Elevation_Map.png" alt="" srcset="" class="rounded-lg">
+                        <h3 class="mt-5 text-center italic">Elevation Map of Sub-Catchment of SA using DEM</h3>
+
+                        <p class="text-justify mt-7"> A choropleth map shows rainfall in Kokrajhar and Dhubri districts using data from rainfall stations. Kriging and Inverse Distance Weighting (IDW) interpolation methods were applied. The map visualizes spatial rainfall distribution across these districts.</p>
+
+                        <button class="rounded-full border italic pl-2 pr-2 w-30 h-9 m-auto ml-35 mt-5 mb-3 cursor-pointer" style="color: #FD6E99;"> <i
+                                class="fa-brands fa-github" style="color: #FD6E99;"></i> <a href="https://x.com/SarkarRanit064"></a> &nbsp; repo link</button>
+                    </div>
+
+
                     
                 </div>
-
-            </section>
-
+            </section>      
 
 
 
-        </div> <!-- End Skills section -->
+        </div> <!-- End Projects section -->
+
+
+
+
 
 
 
@@ -114,7 +131,7 @@
      class="inline-flex flex-col justify-center gap-4 text-white border-2 border-pink-500 rounded-full w-auto fixed inset-y-0 right-0 mr-5 mb-10"
    >
      <a
-       href="#"
+       href="about.html"
        class="flex items-center justify-center w-10 h-10 p-4 rounded-full bg-pink-500 pl-2 pr-2"
      >
        <!-- svg of About -->
@@ -139,7 +156,7 @@
          />
        </svg>
      </a>
-     <a href="#" class="flex items-center justify-center w-10 h-10 p-4 pl-2 pr-2">
+     <a href="projects.html" class="flex items-center justify-center w-10 h-10 p-4 pl-2 pr-2">
        <!-- svg of Project -->
        <svg
          width="20"
@@ -154,7 +171,7 @@
          />
        </svg>
      </a>
-     <a href="#" class="flex items-center justify-center w-10 h-10 p-4 pl-2 pr-2">
+     <a href="skills.html" class="flex items-center justify-center w-10 h-10 p-4 pl-2 pr-2">
        <!-- svg of Skills -->
        <svg
          width="41"
@@ -183,7 +200,7 @@
          />
        </svg>
      </a>
-     <a href="#" class="flex items-center justify-center w-10 h-10 p-4 pl-2 pr-2">
+     <a href="education.html" class="flex items-center justify-center w-10 h-10 p-4 pl-2 pr-2">
        <!-- svg of Education -->
        <svg
          width="41"
